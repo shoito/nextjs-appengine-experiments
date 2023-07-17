@@ -1,0 +1,18 @@
+runtime: nodejs20
+instance_class: F1
+service: default
+
+handlers:
+  - url: /_next/static
+    static_dir: .next/static
+
+  - url: /(.*\.(gif|png|jpg|svg|ico|txt))$
+    static_files: public/\1
+    upload: public/.*\.(gif|png|jpg|svg|ico|txt)$
+
+  - url: /.*
+    script: auto
+    secure: always
+
+inbound_services:
+  - warmup

@@ -1,0 +1,19 @@
+{
+  "textPayload": "Failed to write image to cache uWMUG7XySLA2rI+bcHWmDuWP7Bt4LUSGBKIB2Vd-X08= [Error: ENOENT: no such file or directory, mkdir '/workspace/.next/cache/images'] {",
+  "insertId": "64b3e033000e615135465fe6",
+  "resource": {
+    "type": "gae_app",
+    "labels": {
+      "module_id": "default",
+      "zone": "asia-northeast1-3",
+      "version_id": "20230716t211537",
+      "project_id": "xxxxx"
+    }
+  },
+  "timestamp": "2023-07-16T12:18:59.942417Z",
+  "labels": {
+    "clone_id": "00c61b117cb200d5387ac70eb291cae6dc23563323b6fcfb5bcf141a0112359a5ce10803878b36a6a1fe0f30f36325d26608939bf878282326d9e2"
+  },
+  "logName": "projects/xxxxx/logs/stderr",
+  "receiveTimestamp": "2023-07-16T12:19:00.272592801Z"
+}
