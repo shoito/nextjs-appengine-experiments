@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gcp-build": "tar zxvf node_modules.tar.gz && rm node_modules.tar.gz"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
